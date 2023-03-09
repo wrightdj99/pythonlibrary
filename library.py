@@ -157,7 +157,7 @@ class lList:
         #Start TLS for security purposes
         s.starttls()
         #Authentamacation -- Intentional misspelling :)
-        s.login(sendermail, "vrqajwqsvudosekg")
+        s.login(sendermail, "your password here")
         #Converting the multipart message to a string
         text = msg.as_string()
         #Send the message!
